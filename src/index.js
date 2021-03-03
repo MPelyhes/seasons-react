@@ -23,7 +23,7 @@ class App extends React.Component {
      }
      
      if(!this.errorMessage && !this.state.lat){
-      return <Spinner />
+      return <Spinner message="Please accept location request"/>
     }
   
   }
